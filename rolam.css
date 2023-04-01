@@ -1,0 +1,93 @@
+body {
+    background:linear-gradient(to right, skyblue, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.home {
+    border: outset;
+    border-width: 5px;
+    border-color: blue;
+    border-radius: 20px;
+
+    transition: .6s;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100px;
+}
+.home:hover {
+    border-color: lightblue;
+}
+.rolam {
+    width: 100%;
+    padding: 78px 0px;
+}
+.rolam-text {
+    width: 550px;
+
+    font-family: 'Poppins', "consolas", sans-serif;
+
+    position: absolute;
+    bottom: 500px;
+}
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.rolam img {
+    border: outset;
+    border-width: 5px;
+    border-color: blue;
+    border-radius: 20px;
+
+    position: absolute;
+    top: 6px;
+    left: 790px;
+    right: 6px;
+    width: 200px;
+}
+#elso {
+    font-size: 60px;
+
+    color: gray;
+    text-transform: capitalize;
+
+    position: absolute;
+    top: -121px;
+}
+#masodik {
+    font-size: 40px;
+    
+    color: blue;
+    text-transform: capitalize;
+}
+span {
+    color: red;
+}
+button {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+
+    font-weight: bold;
+    font-family: 'Poppins', "consolas", sans-serif;
+    padding: 13px 30px;
+    border-radius: 30px;
+
+    transition: .4s;
+}
+button:hover {
+    background: transparent;
+    border: 2px solid blue;
+    cursor: pointer;
+
+    color: black;
+}

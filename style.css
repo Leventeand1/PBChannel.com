@@ -1,0 +1,157 @@
+body {
+    background: linear-gradient(to left, lightgreen, lightyellow);
+}
+.pblogo {
+    border: outset;
+    border-width: 5px;
+    border-color: blue;
+    border-radius: 20px;
+
+    transition: .6s;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100px;
+}
+.pblogo:hover {
+    border-color: lightblue;
+}
+/* Navigation Bar */
+.navbar {
+    padding: 10px;
+}
+/* Link */
+a:default {
+    color: black;
+    background-color:black;
+} /* Youtube Button */
+.youtube {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    border: outset;
+    border-color: black;
+    border-radius: 30px;
+    border-width: 10px;
+    border-spacing: 10px;
+    padding: 10px;
+    position:relative;
+    top: -21px;
+    left: 100px;
+    font-family: 'Montserrat', 'consolas';
+
+    transition: .4s;
+
+    box-shadow: 13px 14px 21px -5px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 13px 14px 21px -5px rgba(0,0,0,0.67);
+    -moz-box-shadow: 13px 14px 21px -5px rgba(0,0,0,0.67);
+}
+.tiktok {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Montserrat', 'consolas';
+    background-color: black;
+    border: outset;
+    border-color: black;
+    border-radius: 30px;
+    border-width: 10px;
+    border-spacing: 10px;
+    padding: 10px;
+    margin: 10px;
+    position:relative;
+    top: -21px;
+    left: 99px;
+
+    transition: .4s;
+
+    box-shadow: 13px 14px 21px -5px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 13px 14px 21px -5px rgba(0,0,0,0.67);
+    -moz-box-shadow: 13px 14px 21px -5px rgba(0,0,0,0.67);
+}
+a:any-link {
+    color: black;
+    text-decoration: none;
+}
+.tiktok:hover {
+    background-color: gray;
+    border-color: gray;
+}
+.youtube:hover {
+    background-color: #f0f2f5;
+    border-color: #f0f2f5;
+}
+.instagram {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    background-color: black;
+    border: outset;
+    border-color: black;
+    border-radius: 30px;
+    border-width: 10px;
+    border-spacing: 10px;
+    padding: 10px;
+    margin: 10px;
+    position:relative;
+    top: -21px;
+    left: 99px;
+
+    transition: .4s;
+
+    font-family: 'Montserrat', 'consolas';
+
+    box-shadow: 13px 14px 21px -5px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 13px 14px 21px -5px rgba(0,0,0,0.67);
+    -moz-box-shadow: 13px 14px 21px -5px rgba(0,0,0,0.67);
+}
+.instagram:hover {
+    background-color: gray;
+    border-color: gray;
+}
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+.navbar-left > * {
+    padding: 0px;
+}
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+.navbar-right > * {
+    padding: 5px;
+}
+.rolam {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Montserrat', 'consolas';
+    background-color: gray;
+    border: outset;
+    border-color: #808080;
+    border-radius: 30px;
+    border-width: 10px;
+    border-spacing: 10px;
+    padding: 10px;
+    margin: 10px;
+    position:relative;
+    top: -139px;
+    left: 1555px;
+    transition: .4s;
+
+    box-shadow: 13px 14px 21px -5px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 13px 14px 21px -5px rgba(0,0,0,0.67);
+    -moz-box-shadow: 13px 14px 21px -5px rgba(0,0,0,0.67);
+}
+.rolam:hover {
+    background-color: #bfbbbb;
+    border-color: #f2ebeb;
+}
+.tiktok-embed {
+    position: absolute;
+    left: -400px;
+}

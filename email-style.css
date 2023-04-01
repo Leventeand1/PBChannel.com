@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+.home {
+    border: outset;
+    border-width: 5px;
+    border-color: blue;
+    border-radius: 20px;
+
+    transition: .4s;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100px;
+}
+.home:hover {
+    border-color: lightblue;
+}
+
+.pblogo {
+    border: outset;
+    border-width: 5px;
+    border-color: blue;
+    border-radius: 20px;
+
+    position: absolute;
+    top: 200px;
+    left: 830px;
+    right: 6px;
+    width: 200px;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Poppins', "consolas", sans-serif;
+    display: grid;
+    place-items: center;
+}
+h1 {
+    margin-bottom: 2rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    gap: 1rem;
+}
+
+.input {
+    font-size: 300;
+    font-family: 'Poppins', "consolas", sans-serif;
+
+    border: 3px solid blue;
+    border-radius: 30px;
+    padding: 10px;
+    transition: .4s;
+}
+.input:hover {
+    background-color: rgb(221, 246, 255);
+}
+
+.select {
+    font-size: 300;
+    font-family: 'Poppins', "consolas", sans-serif;
+
+    border: 3px solid rgb(146, 245, 121);
+    border-radius: 30px;
+    padding: 20px;
+
+    transition: .4s;
+}
+.select:hover {
+    background-color: rgb(221, 246, 255);
+}
+
+.textarea {
+    font-size: 300;
+    font-family: 'Poppins', "consolas", sans-serif;
+
+    border: 3px solid rgb(123, 255, 233);
+    border-radius: 30px;
+    padding: 20px;
+
+    transition: .4s;
+}
+.textarea:hover {
+    background-color: rgb(221, 246, 255);
+}
+
+.kuld {
+        background-color: blue;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+    
+        font-weight: bold;
+        font-family: 'Poppins', "consolas", sans-serif;
+        padding: 13px 30px;
+        border-radius: 30px;
+    
+        transition: .4s;
+}
+.kuld:hover {
+        background: transparent;
+        border: 2px solid blue;
+        cursor: pointer;
+    
+        color: black;
+}
